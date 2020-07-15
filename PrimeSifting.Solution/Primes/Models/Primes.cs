@@ -20,5 +20,10 @@ namespace Primes.Models
     {
       return _primeList;
     }
+
+    public void RemoveMultiples(int number)
+    {
+      
+    }
   }
 }

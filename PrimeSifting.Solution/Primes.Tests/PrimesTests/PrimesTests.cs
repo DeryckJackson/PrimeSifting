@@ -14,5 +14,14 @@ namespace Primes.Tests
       List<int> expected = new List<int> { 2, 3, 4, 5, 6, 7, 8, 9, 10 };
       CollectionAssert.AreEqual(expected, prime.GetPrimeList());
     }
+
+    [TestMethod] 
+    public void RemoveMultiples_RemoveMultiplesOfAnEntry_Match()
+    {
+      PrimeSifting prime = new PrimeSifting(10);
+      prime.RemoveMultiples(2);
+      List<int> expected = new List<int> {2, 3, 5, 7, 9};
+      CollectionAssert.AreEqual(expected, prime.GetPrimeList());
+    }
   }
 }
