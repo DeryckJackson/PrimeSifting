@@ -23,7 +23,10 @@ namespace Primes.Models
 
     public void RemoveMultiples(int number)
     {
-      
+      for (int i = number + number; i <= _primeList[_primeList.Count - 1]; i += number)
+      {
+        _primeList.Remove(i);
+      }
     }
   }
 }
