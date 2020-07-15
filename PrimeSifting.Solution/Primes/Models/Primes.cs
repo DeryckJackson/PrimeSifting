@@ -28,5 +28,10 @@ namespace Primes.Models
         _primeList.Remove(i);
       }
     }
+
+    public void RemoveAll()
+    {
+
+    }
   }
 }
