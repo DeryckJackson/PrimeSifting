@@ -31,7 +31,15 @@ namespace Primes.Models
 
     public void RemoveAll()
     {
-
+      int currentNumber = 2;
+      while (currentNumber <= UpperLimit)
+      {
+        if (_primeList.Contains(currentNumber))
+        {
+          RemoveMultiples(currentNumber);
+        }
+        currentNumber++;
+      }
     }
   }
 }
