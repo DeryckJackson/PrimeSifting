@@ -1,9 +1,12 @@
 using System;
 
-class Program
+namespace Primes.Models 
 {
-  static void Main()
+  class PrimeSifting 
   {
-    Console.WriteLine("Hello World");
+    public Array<int> SievePrimes(int number)
+    {
+
+    }
   }
 }

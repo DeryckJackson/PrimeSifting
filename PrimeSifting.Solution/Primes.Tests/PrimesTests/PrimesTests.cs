@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Blank;
+using Primes.Models;
 
-namespace Blank.Tests
+namespace Primes.Tests
 {
   [TestClass]
-  public class BlankTests
+  public class PrimesTests
   {
     [TestMethod]
     // Test method will go here
