@@ -2,7 +2,7 @@ using System;
 
 namespace Primes
 {
-  class Program
+  public class Program
   {
     static void Main()
     {
